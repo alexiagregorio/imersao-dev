@@ -1,0 +1,97 @@
+body {
+    font-family: "Roboto Mono", monospace;
+    text-align: center;
+    background-image: url("https://caelum-online-public.s3.amazonaws.com/assets-imersaodev/background_mentalista.png");
+    background-color: #000000;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    height: 100vh;
+    overflow: hidden; /*tirei rolagem*/
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+  }
+  
+  .page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+  }
+  
+  .page-logo {
+    width: 200px;
+  }
+  
+  .alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  body > img {
+    margin: 0 10px;
+  }
+  
+  img {
+    max-height: 350px;
+  }
+
+  /*ALTERAÇÕES*/
+
+  .links{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+  }
+  
+  ul {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(255, 255, 255, 0.596);
+    width: auto;
+    border-radius: 5px;
+    text-align: center;
+  }
+
+  ul > li {
+    padding: 10px;
+  }
+
+  ul > li > a {
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+  }
+
+  ul > li > a:hover {
+    background-color: rgb(233, 3, 3);
+    color: white;
+    font-weight: bolder;
+    padding: 8px;
+    border-radius: 5px;
+  }
+
+  footer {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+footer > a {
+    color: white;
+    text-decoration: none;
+}
+
+footer > a:hover {
+    color: red
+}
