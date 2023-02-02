@@ -8,7 +8,7 @@ var filmeAntonio = 'https://upload.wikimedia.org/wikipedia/pt/thumb/f/f1/TFF-Tok
 
 var listaFilmes = [
     'https://upload.wikimedia.org/wikipedia/pt/9/9e/Just_Go_with_it_P%C3%B4ster.jpg', 
-    'https://static.wikia.nocookie.net/vvikipedia/images/d/d8/Poster_Harry_Potter_e_o_C%C3%A1lice_de_Fogo.jpg/revision/latest?cb=20200413041610&path-prefix=pt',
+    'https://img.elo7.com.br/product/original/265774E/big-poster-harry-potter-e-o-calice-de-fogo-lo02-90x60-cm-geek.jpg',
                 
     'https://upload.wikimedia.org/wikipedia/pt/thumb/f/f1/TFF-TokyoDrift-p%C3%B4ster.jpg/255px-TFF-TokyoDrift-p%C3%B4ster.jpg',
 
