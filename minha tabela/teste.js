@@ -10,10 +10,13 @@ function exibirNaTela() {
     elementoTabela.innerHTML += `
         <tr>
             <td>${jogador.nome}</td>
+            <td>${jogador.jogos}</td>
             <td>${jogador.vitoria}</td>
             <td>${jogador.empate}</td>
             <td>${jogador.derrota}</td>
             <td>${jogador.pontos}</td>
+            
+            <td><button onClick="adicionarJogos(${index})">Jogos</button></td>
             <td><button onClick="adicionarVitoria(${index})">Vitória</button></td>
             <td><button onClick="adicionarEmpate(${index})">Empate</button></td>
             <td><button onClick="adicionarDerrota(${index})">Derrota</button></td>
@@ -29,13 +32,19 @@ function criarJogador() {
   var nomeNovoJogador = document.getElementById("campoNomeJogador").value;
   listaDeJogadores.push({
     nome: nomeNovoJogador,
+    jogos: 0,
     vitoria: 0,
     empate: 0,
     derrota: 0,
-    pontos: 0
+    pontos: 0,
   });
   document.getElementById("campoNomeJogador").value = "";
   exibirNaTela();
+}
+
+function adicionarJogos(index) {
+  listaDeJogadores[index].jogos++
+  exibirNaTela()
 }
 
 function adicionarVitoria(index) {
@@ -60,6 +69,7 @@ function limparPontuacaoJogador(index) {
   listaDeJogadores[index].empate = 0;
   listaDeJogadores[index].derrota = 0;
   listaDeJogadores[index].pontos = 0;
+  listaDeJogadores[index].jogos = 0;
   exibirNaTela();
 }
 
