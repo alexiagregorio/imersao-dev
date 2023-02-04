@@ -40,7 +40,7 @@ function criarJogador() {
 
 function adicionarVitoria(index) {
   listaDeJogadores[index].vitoria++;
-  listaDeJogadores[index].pontos = listaDeJogadores[index].pontos + 1;
+  listaDeJogadores[index].pontos = listaDeJogadores[index].pontos + 3;
   exibirNaTela();
 }
 
